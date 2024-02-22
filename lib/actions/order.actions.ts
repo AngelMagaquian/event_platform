@@ -56,4 +56,4 @@ export const createOrder = async (order: CreateOrderParams) => {
     } catch (error) {
       handleError(error);
     }
-  }
+}
